@@ -9,10 +9,10 @@
 
 @media (max-width: 767px){ .u-section-2 .u-line-1 {width: 540px} }
 
-@media (max-width: 575px){ .u-section-2 .u-line-1 {margin-right: initial; margin-left: initial; width: auto} }.u-section-3 .u-sheet-1 {min-height: 546px}
+@media (max-width: 575px){ .u-section-2 .u-line-1 {margin-right: initial; margin-left: initial; width: auto} }.u-section-3 .u-sheet-1 {min-height: 516px}
 .u-section-3 .u-text-1 {margin: 30px auto 0}
 .u-section-3 .u-image-1 {width: 411px; height: 275px; object-position: 50% 0%; margin: 22px auto 0}
-.u-section-3 .u-text-2 {margin: 8px auto 60px 30px} 
+.u-section-3 .u-text-2 {margin: 8px auto 46px 30px} 
 
 @media (max-width: 575px){ .u-section-3 .u-sheet-1 {min-height: 658px}
 .u-section-3 .u-image-1 {width: 340px; height: 227px}
