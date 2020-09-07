@@ -21,7 +21,7 @@
 .u-section-2 .u-layout-wrap-1 {width: 995px; margin: 0 auto}
 .u-section-2 .u-layout-cell-1 {min-height: 366px}
 .u-section-2 .u-container-layout-1 {padding: 30px}
-.u-section-2 .u-image-1 {width: 279px; height: 279px; background-image: url("images/SAVE_20200124_0934264.jpg"); background-position: 50% 10.59%; margin: 0 auto 0 11px}
+.u-section-2 .u-image-1 {width: 279px; height: 279px; background-image: url("images/SAVE_20200124_0934264.jpg"); background-position: 50% 10.59%; margin: 139px auto 0 0}
 .u-section-2 .u-layout-cell-2 {min-height: 366px}
 .u-section-2 .u-container-layout-2 {padding: 30px}
 .u-section-2 .u-text-1 {margin: 27px 0 0}
@@ -35,7 +35,7 @@
 
 @media (max-width: 991px){ .u-section-2 .u-layout-wrap-1 {width: 720px}
 .u-section-2 .u-layout-cell-1 {min-height: 100px}
-.u-section-2 .u-image-1 {width: 216px; height: 216px; margin-left: 0}
+.u-section-2 .u-image-1 {width: 216px; height: 216px}
 .u-section-2 .u-layout-cell-2 {min-height: 100px} }
 
 @media (max-width: 767px){ .u-section-2 .u-layout-wrap-1 {width: 540px}
