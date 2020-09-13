@@ -29792,9 +29792,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-logo-image-1 {max-width: 64px; max-height: 64px}
 .u-header .u-menu-1 {margin: -50px 0 47px auto}
 .u-header .u-nav-1 {font-size: 1rem; letter-spacing: normal}
-.u-header .u-nav-2 {font-size: 1rem; letter-spacing: normal}
-.u-header .u-nav-3 {font-size: 1.25rem}
-.u-header .u-nav-4 {font-size: 1rem; letter-spacing: normal} 
+.u-header .u-nav-2 {font-size: 1.25rem} 
 @media (max-width: 1199px){ .u-header .u-image-1 {width: 64px; height: 32px}
 .u-header .u-menu-1 {width: auto; margin-top: -50px; margin-right: 0} }
 
