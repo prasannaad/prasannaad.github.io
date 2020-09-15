@@ -29800,7 +29800,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 @media (max-width: 767px){ .u-header .u-image-1 {width: auto} }
 @media (max-width: 575px){ .u-header .u-sheet-1 {min-height: 113px}
-.u-header .u-image-1 {margin-top: 25px; width: auto}
+.u-header .u-image-1 {margin-top: 25px; width: 64px}
 .u-header .u-menu-1 {margin-right: 20px; margin-bottom: 37px}
 .u-header .u-nav-1 {letter-spacing: 0} }
  .u-footer {background-image: none}
