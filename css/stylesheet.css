@@ -1,7 +1,8 @@
-@import "https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap";
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Geologica", sans-serif;
+  font-style: normal;
 }
 
 /* Style page content */
