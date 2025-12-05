@@ -311,3 +311,93 @@ a {
         padding-right: 0%;
     }
 }
+
+
+/* Blog cards with thumbnail */
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 28px;
+  align-items: stretch;
+  margin-top: 10px;
+}
+
+/* Card */
+.blog-card {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  overflow: hidden;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+/* Make entire card clickable */
+.blog-link {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+}
+
+.blog-thumb {
+  width: 280px;        /* fixed small width */
+  height: 280px;       /* fixed small height */
+  object-fit: cover;   /* crop image nicely */
+  border-radius: 4px;  /* optional: rounded corners */
+  margin: 20px;        /* spacing inside the card */
+}
+
+/* content should not be the positioned ancestor */
+.blog-content {
+  /* remove any `position: relative;` here if present */
+  position: static;
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* date pinned to top-right corner of the card */
+.blog-date {
+  position: absolute;
+  top: 12px;
+  right: 18px;
+  font-size: 13px;
+  color: #9aa7b2;
+  z-index: 10;          /* keep it above the thumbnail */
+  white-space: nowrap;
+}
+
+/* Title */
+.blog-title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.35;
+  color: #1479b8; /* blue title like your screenshot; change if needed */
+  font-weight: 500;
+  text-align: left;
+}
+
+/* Hover */
+.blog-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+/* Responsive: stack thumb on small screens */
+@media (max-width: 520px) {
+  .blog-link {
+    flex-direction: column;
+  }
+  .blog-thumb {
+    width: 100%;
+    height: 160px;
+  }
+  .blog-content {
+    padding: 18px;
+  }
+  .blog-date {
+    right: 14px;
+    top: 10px;
+  }
+}
