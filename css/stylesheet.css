@@ -62,19 +62,23 @@ body {
 }
 
 .about_accent {
-  color:  green;
+  color: #000000;
+  font-weight: 700;
 }
 
 .resume_accent {
-  color:  green;
+  color: #000000;
+  font-weight: 700;
 }
 
 .research_accent {
-  color:  #E74C3C;
+  color: #000000;
+  font-weight: 700;
 }
 
 .blog_accent {
-  color:  #8E44AD;
+  color: #000000;
+  font-weight: 700;
 }
 
 a {
@@ -400,4 +404,26 @@ a {
     right: 14px;
     top: 10px;
   }
+}
+
+
+/* Global typography update */
+body,
+p,
+li,
+time,
+.blog-content,
+.about_text,
+.navblock_text a {
+  color: #444444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000000;
+  font-weight: 700;
+}
+
+.blog-title {
+  color: #000000;
+  font-weight: 700;
 }
